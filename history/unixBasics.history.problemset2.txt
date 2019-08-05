@@ -1,0 +1,716 @@
+    1  exit
+    2  yppasswd
+    3  cd ~
+    4  touch mm10.fa
+    5  touch sequences.fa
+    6  touch peaks.txt
+    7  touch genomes.txt
+    8  ls
+    9  mkdir Play
+   10  mv genomes.txt Play/
+   11  mv mm10.fa Play/
+   12  mv peaks.txt Play/
+   13  mv sequences.fa Play/
+   14  ls
+   15  cd Play
+   16  ls
+   17  touch bingo.txt
+   18  ls
+   19  mv bingo.txt orion.txt
+   20  ls
+   21  cd ..
+   22  ls
+   23  mkdir one
+   24  ls
+   25  mkdir two
+   26  ls
+   27  mv two one/
+   28  ls
+   29  cd one
+   30  ls
+   31  cd ..
+   32  mkdir three
+   33  mv three linuxclass/
+   34  ls
+   35  mv linuxclass/three one/
+   36  ls
+   37  cd one
+   38  ls
+   39  cd ~
+   40  cd linuxclass
+   41  ls
+   42  cd ..
+   43  cd one
+   44  ls
+   45  cd ..
+   46  Play
+   47  cd Play
+   48  ls
+   49  cd ~
+   50  cd linuxclass
+   51  touch file.txt
+   52  cd ~
+   53  rm -i linuxclass/file.txt
+   54  ls
+   55  ls linuxclass
+   56  ls one
+   57  ls play
+   58  ls Play
+   59  man rm
+   60  cd ~
+   61  ls Play
+   62  cp Play/orion.txt wonder.txt
+   63  ls
+   64  cd ~
+   65  cd /home/mcm/listofservers.txt 
+   66  cd home
+   67  cd ..
+   68  ls
+   69  cd mcm
+   70  ls
+   71  cp listofservers.txt /home/pal/one
+   72  ls home/pal/one
+   73  cd ~
+   74  ssh genekc03
+   75  exit
+   76  ls
+   77  pwd
+   78  mkdir linuxclass
+   79  ls
+   80  cd linuxclass
+   81  ls
+   82  cd
+   83  cd /n/data1/genomes
+   84  pwd
+   85  cd ..
+   86  pwd
+   87  cd ..
+   88  pwd
+   89  cd /n/data1/genomes
+   90  pwd
+   91  cd ../..
+   92  pwd
+   93  cd
+   94  pwd
+   95  cd /n/data1/genomes
+   96  pwd
+   97  cd ~
+   98  pwd
+   99  cd /n/projects
+  100  cd ~/linuxclass
+  101  cd ~
+  102  cd /n/data1/genomes/bowtie-index
+  103  ls
+  104  cd dm3
+  105  ls
+  106  cd ..
+  107  cd mm9
+  108  ls
+  109  cd ..
+  110  cd rn6
+  111  ls
+  112  cd ..
+  113  cd /n/facility/Bioinformatics//analysis/
+  114  cd ~
+  115  ls /n/data1/genomes
+  116  ls /n/analysis
+  117  ls /n/analysis/Yu
+  118  ls /n/analysis/Mak
+  119  ls /n/analysis/Baumann
+  120  ls /n/analysis/Baumann/rka
+  121  ls /n/analysis/Baumann/rka/MOLNG-528
+  122  man ls
+  123  man pwd
+  124  man man
+  125  ls -h
+  126  man ls
+  127  cd ~/linuxclass/data
+  128  cd ..
+  129  ls
+  130  ~/linuxclass/data
+  131  cd /home/pal
+  132  ls
+  133  cd linuxclass
+  134  ls
+  135  mkdir data
+  136  ls
+  137  cd ..
+  138  grep ">" peak_seq.fa
+  139  ls
+  140  cd ..
+  141  cd..
+  142  cd ..
+  143  ls
+  144  cd data1
+  145  ls
+  146  cd data1
+  147  ls
+  148  cd ~
+  149  ls
+  150  cd ~/linuxclass
+  151  cp -R /n/facility/Bioinformatics/Training/SummerCourse/2015/linux/data/
+  152  mkdir data
+  153  cp -R /n/facility/Bioinformatics/Training/SummerCourse/2015/linux/data/ data/
+  154  cd data
+  155  ls
+  156  head mm10.Ens_80.genedata.txt
+  157  ls
+  158  cd data
+  159  ls
+  160  head mm10.Ens_80.genedata.txt 
+  161  less peak_seq.fa 
+  162  nano file.txt
+  163  cd ~linuxclass/data/data
+  164  cd ~
+  165   cd ~/linuxclass/data/data
+  166  grep ">" peak_seq.fa
+  167  head zic2_tc_chr19.fq 
+  168  grep "^@SEB" zic2_tc_chr19.fq 
+  169  grep "Acta1" mm10.Ens_80.genedata.txt 
+  170  grep "GATTACA" peak_seq.fa 
+  171  grep -B 1 "GATTACA" peak_seq.fa 
+  172  man grep
+  173  grep -v ">" peak_seq.fa 
+  174  man grep
+  175  ls -lh
+  176  wc -l mm10.Ens_80.genedata.txt 
+  177  man wc
+  178  wc -v  mm10.Ens_80.genedata.txt 
+  179  wc -v  peak.seq.fa
+  180  wc -v  peak_seq.fa
+  181  wc -l  peak_seq.fa
+  182  exit
+  183  yppasswd
+  184  iebae3ceef
+  185  yppasswd
+  186  ls -lrh
+  187  pwd
+  188  ls
+  189  mkdir linuxclass2
+  190  ls
+  191  cd linuxclass2
+  192  pwd
+  193  ls
+  194  cd
+  195  pwd
+  196  ls
+  197  top
+  198  ls
+  199  cd linuxclass
+  200  ls
+  201  cd data
+  202  ../
+  203  cd ../
+  204  ls
+  205  cd ../..
+  206  ls
+  207  cd pal
+  208  ls
+  209  cd /n/data1/genomes
+  210  ls
+  211  pwd
+  212  cd ~
+  213  pwd
+  214  cd /n/projects
+  215  ls
+  216  cd ~/linuxclass
+  217  ls
+  218  pwd
+  219  cd
+  220  ls
+  221  cd ~/pal
+  222  cd ~pal
+  223  ls
+  224  howami
+  225  whoami
+  226  cd /n/projects/
+  227  ls
+  228  cd
+  229  ls
+  230  ls 0l
+  231  ls -l
+  232  ls -ltr
+  233  ls -t
+  234  man ls
+  235  man pwd
+  236  ls -lstr
+  237  ls -ls
+  238  ls
+  239  bedtools
+  240  samtools
+  241  bowtie1
+  242  bowtie2
+  243  tophat
+  244  man tophat
+  245  man bedtools
+  246  tophat --hlep
+  247  tophat --help
+  248  clear
+  249  ls
+  250  cd linuxclass
+  251  ls
+  252  touch mm10.fa
+  253  ls
+  254  touch sequences.fa
+  255  ls
+  256  cd
+  257  ls
+  258  cd one
+  259  ls
+  260  cd
+  261  ls
+  262  mkdir fun
+  263  ls
+  264  cd linuxclass
+  265  ls
+  266  mv mm10.fa sequences.fa /home/fun
+  267  mv mm10.fa sequences.fa ~/fun
+  268  ls
+  269  cd
+  270  ls
+  271  cd fun
+  272  ls
+  273  cd
+  274  ls
+  275  mkdir delete
+  276  ls
+  277  cd delete
+  278  touch bye bye
+  279  ls
+  280  touch byebye
+  281  ls
+  282  rm -i byebye
+  283  ls
+  284  rm -i byebye
+  285  ls
+  286  touch bybyebye
+  287  ls
+  288  c
+  289  cd
+  290  cd fun
+  291  ls
+  292  cp mm10.fa ~/home/delete
+  293  cp mm10.fa ~/delete
+  294  ls
+  295  cd
+  296  ls
+  297  cd delete
+  298  ls
+  299  clear
+  300  ls
+  301  cd
+  302  ls
+  303  cd linuxclass
+  304  ls
+  305  mkdir Temp
+  306  ls
+  307  cd Temp
+  308  ls
+  309  mkdir analysis
+  310  ls
+  311  touch analysis/data.txt
+  312  mkdir analysis/subdir
+  313  touch analysis/subdir/moredata.txt
+  314  ls
+  315  cd analysis
+  316  cd
+  317  cd linuxclass
+  318  ls
+  319  cd Temp
+  320  ls
+  321  cd analysis
+  322  ls -R analysis
+  323  cd ..
+  324  ls
+  325  ls -R analysis 
+  326  cp -R analysis analysis_copy
+  327  ls -R analysis_copy
+  328  cd
+  329  ssh genekc03
+  330  ls
+  331  cd linuxclass
+  332  ls
+  333  cd data
+  334  ls
+  335  cd data
+  336  ls
+  337  cd
+  338  ls
+  339  cd linuxclass
+  340  ls
+  341  cp /n/facility/Bioinformatics/Training/SummerCourse/2015/linux/data
+  342  cp -R /n/facility/Bioinclearformatics/Training/SummerCourse/2015/linux/data
+  343  clear
+  344  exit
+  345  yppasswd
+  346  ls
+  347  ls
+  348  cp /home/mtc/yeast_refseq_proteome_01182018.fasta ./
+  349  ls
+  350  mkdir yeast_proteome
+  351  ls
+  352  cd yeast_proteome/
+  353  mv ../yeast_refseq_proteome_01182018.fasta ./
+  354  ls
+  355  less yeast_refseq_proteome_01182018.fasta 
+  356  cd /home/mtc/plaac-master/cli/target
+  357  java -jar plaac.jar -h
+  358  ls
+  359  java -jar plaac.jar -i /home/pal/yeast_proteome/yeast_refseq_proteome_01182018.fasta > /home/pal/yeast_proteome/yeast_plaac_output.txt & disown
+  360  too
+  361  top
+  362  htop
+  363  java -jar plaac.jar -i /home/pal/yeast_proteome/yeast_refseq_proteome_01182018.fasta > /home/pal/yeast_proteome/yeast_plaac_output.txt & disown
+  364  cd
+  365  ls
+  366  cd yeast_proteome/
+  367  tail -f yeast_plaac_output.txt 
+  368  ls
+  369  cat yeast_plaac_output.txt | wc -l
+  370  rm yeast_plaac_output.txt 
+  371  cd /home/mtc/plaac-master/cli/target
+  372  java -jar plaac.jar -i /home/pal/yeast_proteome/yeast_refseq_proteome_01182018.fasta > /home/pal/yeast_proteome/yeast_plaac_output.txt & disown
+  373  tail -f /home/pal/yeast_proteome/yeast_plaac_output.txt
+  374  tail /home/pal/yeast_proteome/yeast_plaac_output.txt
+  375  ls
+  376  cd 
+  377  ls
+  378  cd yeast_proteome/
+  379  ls
+  380  less yeast_plaac_output.txt 
+  381  ls
+  382  NP_009319.1 F0 ATP synthase subunit c (mitochondrion) [Saccharomyces cerevisiae S288C]  3       1       76      76      -24.467 1       60      60      -0.408  0       NaN     0       -1      0       0.000   0       -1      0       76
+  383  ls
+  384   sed -h
+  385  ls
+  386  cast wonder.txt 
+  387  cat wonder.txt 
+  388  nano wonder.txt 
+  389  cat wonder.txt 
+  390  echo wonder.txt 
+  391  more wonder.txt 
+  392  wc
+  393  wc wonder.txt 
+  394  wc
+  395  ls
+  396  cd yeast_proteome/
+  397  ls
+  398  wc\ yeast_refseq_proteome_01182018.fasta > count.txt
+  399  cat < count.txt 
+  400  grep 'gatttgc' yeast_refseq_proteome_01182018.fasta 
+  401  grep 'gatttgc' <  yeast_refseq_proteome_01182018.fasta 
+  402  grep 'gatttgc' yeast_refseq_proteome_01182018.fasta 
+  403  grep gatttgc yeast_refseq_proteome_01182018.fasta  | wc -l
+  404  grep gttttgc yeast_refseq_proteome_01182018.fasta  | wc -l
+  405  grep atcttgc yeast_refseq_proteome_01182018.fasta  | wc -l
+  406  grep atg yeast_refseq_proteome_01182018.fasta  | wc -l
+  407  grep ggg yeast_refseq_proteome_01182018.fasta  | wc -l
+  408  nano yeast_refseq_proteome_01182018.fasta 
+  409  grep mlv yeast_refseq_proteome_01182018.fasta  | wc -l
+  410  grep ml yeast_refseq_proteome_01182018.fasta  | wc -l
+  411  grep -v  ml yeast_refseq_proteome_01182018.fasta  | wc -l
+  412  cd /bin/
+  413  ls
+  414  ls -l
+  415  ls -lt
+  416  ls -lt | head
+  417  exit
+  418  date ; sleep 2; date
+  419  man head
+  420  man ls
+  421  ls
+  422  cd ..
+  423  ls
+  424  wc 
+  425  cd pal
+  426  ls
+  427  mkdir problemsets
+  428  ls
+  429  man ls
+  430  q
+  431  cd problemsets/
+  432  pwd
+  433  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa 
+  434  ls
+  435  wc sequences.nt.fa 
+  436  man wc
+  437  head sequences.nt.fa 
+  438  man head
+  439  tail sequences.nt.fa 
+  440  nano sequences.nt.fa 
+  441  grep > sequences.nt.fa 
+  442  grep '>' sequences.nt.fa 
+  443  grep > sequences.nt.fa | wc -l
+  444  grep '>' sequences.nt.fa | wc -l
+  445  grep '>' sequences.nt.fa | wc
+  446  grep '>' sequences.nt.fa | wc -l
+  447  grep -v '>' sequences.nt.fa | wc -l
+  448  grep -v ">" sequences.nt.fa | wc -l
+  449  grep  ">" sequences.nt.fa | wc -l
+  450  grep NM  sequences.nt.fa | wc -l
+  451  man mv
+  452  mv sequences.nt.fa cancer_genes.fasta
+  453  ls
+  454  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt 
+  455  ls
+  456  head cuffdiff.txt 
+  457  man sort
+  458  sort -nr 'log2(fold_change)' > sorted.cuffdiff.out
+  459  sort -nr  > sorted.cuffdiff.out
+  460  sort -nr cuffdiff.txt > sorted.cuffdiff.out
+  461  nano sorted.cuffdiff.out 
+  462  man sort
+  463  nano sorted.cuffdiff.out 
+  464  man sort
+  465  sort log2(FPKMy/FPKMx) -nr cuffdiff.txt > sorted.cuffdiff.out
+  466  man sort
+  467  sort -knr cuffdiff.txt > sorted.cuffdiff.out
+  468  sort -k 10 -nr cuffdiff.txt > sorted.cuffdiff.out
+  469  man sorted.cuffdiff.out 
+  470  nano sorted.cuffdiff.out 
+  471  sort -k 10 -n cuffdiff.txt > sorted.cuffdiff.out
+  472  head -100
+  473  sort -k 10 -nr cuffdiff.txt > sorted.cuffdiff.out
+  474  nano sorted.cuffdiff.out 
+  475  man head
+  476  head -n100 < sorted.cuffdiff.out > top100.sorted.cuffdiff.out
+  477  nano top100.sorted.cuffdiff.out 
+  478  sort -k 13 -n cuffdiff.txt | head -n100 | sort -k 1 | uniq > differentially.expressed.genes.txt
+  479  nano differentially.expressed.genes.txt 
+  480  sort -k 13 -n cuffdiff.txt | head -n100 | sort -k 1 | uniq > differentially.expressed.gen                                            es.txt
+  481  head -n100 < sorted.cuffdiff.out > top100.sorted.cuffdiff.out
+  482  sort -k 10 -nr cuffdiff.txt > sorted.cuffdiff.out
+  483  cd
+  484  ls
+  485  nano firstFile.txt
+  486  mkdir PFB_problemsets
+  487  cd PFB_problemsets/
+  488  clear
+  489  $ echo
+  490  echo "# PFB_problemsets" >> README.md
+  491  git init
+  492  git add README.md
+  493  git commit -m "first commit"
+  494  git remote add origin https://github.com/jenhiro/PFB_problemsets.git
+  495  git push -u origin master
+  496  exit
+  497  ls
+  498  cd PFB_problemsets/
+  499  ls
+  500  nano git_exercises.txt
+  501  git add git_exercises.txt
+  502  git commit -m 'added a line of text'
+  503  git push origin master
+  504  git clone https://github.com/prog4biol/pfb2018.git
+  505  ls
+  506  cd pfb2018/
+  507  ls
+  508  nano README.md 
+  509  cd files/
+  510  ls
+  511  cd ..
+  512  cd reveiwsessions/
+  513  ls
+  514  cd ..
+  515  ls
+  516  cd ..
+  517  ls
+  518  nano git_exercises.txt 
+  519  cd ..
+  520  ls
+  521  cd problemsets/
+  522  ls
+  523  cd .. 
+  524  cd PFB_problemsets/
+  525  ls
+  526  cd ..
+  527  cd problemsets/
+  528  git add *
+  529  cd ..
+  530  cd PFB_problemsets/
+  531  ls
+  532  git add *
+  533  git rm --cahced pfb2018
+  534  git rm --cached pfb2018
+  535  cd .
+  536  cd ..
+  537  ls
+  538  git clone https://github.com/prog4biol/pfb2018.git
+  539  ls
+  540  cd PFB_problemsets/
+  541  ls
+  542  cd ..
+  543  ls
+  544  mv problemsets/ PFB_problemsets/
+  545  ls
+  546  cd PFB_problemsets/
+  547  ls
+  548  git add *
+  549  git commit -m 'adding previous problem set files'
+  550  git push
+  551  ls
+  552  rm pfb2018/
+  553  rmdir pfb2018/
+  554  cd pfb2018/
+  555  ls
+  556  rm *
+  557  cd ..
+  558  ls
+  559  rm -r pfb2018/
+  560  ls
+  561  git add *
+  562  git commit -m 'adding previous problem set files and removing file directories'
+  563  git push
+  564  ls
+  565  git checkout master
+  566  git rm -r pfb2018
+  567  git commit -m 'Remove duplicated directory'
+  568  git push
+  569  ssh-keygen -t rsa -b 4096 -C "sciadvent@gmail.com"
+  570  man ssh-keygen
+  571  eval
+  572  ssh-agent -s
+  573  ls
+  574  ssh-add ~/.ssh/id_rsa
+  575  ssh-agent -s
+  576  ssh-add ~/.ssh/id_rsa
+  577  eval (ssh-agent -s)
+  578  eval ssh-agent -s
+  579  ssh-add ~/.ssh/id_rsa
+  580  ssh-keygen -p
+  581  Your public key has been saved in /home/pal/.ssh/id_rsa.pub.
+  582  The key fingerprint is:
+  583  d6:a0:47:b1:ca:18:6b:02:ea:7e:bd:34:a9:bb:b7:c3 sciadvent@gmail.com
+  584  The key's randomart image is:
++--[ RSA 4096]----+
+|        .        |
+|         o       |
+|.   .   +        |
+|..   = + o       |
+|. . + + S .      |
+|.  o  .o         |
+| .  o+           |
+|.  .oE.          |
+| ..++o+          |
++-----------------+
+  585  cd ..
+  586  ls
+  587  cd ..
+  588  ls
+  589  cd ..
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd home/
+  594  ls
+  595  cd pal
+  596  ls
+  597  ls -a
+  598  cd .ssh
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd PFB_problemsets/
+  603  ls
+  604  ssh-add ~/.ssh/id_rsa
+  605  ssh-add home/pal/.ssh/id_rsa
+  606  ssh-agen -s
+  607  ssh-agent -s
+  608  ssh-add home/pal/.ssh/id_rsa
+  609  ssh-agent -s ssh-add /home/pal/.ssh/id_rsa
+  610  ssh-agent ssh-add /home/pal/.ssh/id_rsa
+  611  chmod 400 ~/ssh/id_rsa
+  612  chmod 400 ~/.ssh/id_rsa
+  613  ssh-add ~/.ssh/id_rsa
+  614  ssh-agent ssh-add /home/pal/.ssh/id_rsa
+  615  clip < ~/.ssh/id_rsa.pub
+  616  cd ..
+  617  ls
+  618  ls -a
+  619  cd .ssh
+  620  ls
+  621  nano id_rsa.pub 
+  622  nano authorized_keys2 
+  623  nano id_rsa.pub 
+  624  ls -al 
+  625  ls -al ~/.ssh
+  626  ls
+  627  nano id_rsa.pub 
+  628  cd ..
+  629  ls
+  630  cd PFB_problemsets/
+  631  pal@maple ~/.ssh$ chmod 600 ~/.ssh/id_rsa
+  632  chmod 600 ~/.ssh/id_rsa
+  633  cd ..
+  634  ls
+  635  ls a
+  636  ls -a
+  637  cd .ssh
+  638  ls
+  639  ssh-add ~/.ssh/id_rsa
+  640  cd ..
+  641  cd PFB_problemsets/
+  642  ssh-add ~/.ssh/id_rsa
+  643  ssh-agent ssh-add /home/pal/.ssh/id_rsa
+  644  cd ..
+  645  cd .ssh
+  646  ls
+  647  nano id_rsa.pub 
+  648  cd ..
+  649  cd PFB_problemsets/
+  650  mkdir files
+  651  ls
+  652  cd problemsets/
+  653  ls
+  654  mv cancer_genes.fasta ~/PFB_problemsets/files/
+  655  ls
+  656  cd ..
+  657  ls
+  658  files 
+  659  ls
+  660  cd files
+  661  ls
+  662  git all files/cancer_genes.fasta
+  663  git add files/cancer_genes.fasta
+  664* git add ~/Ffiles/cancer_genes.fasta
+  665  git add cancer_genes.fasta
+  666  git commit -m 'adding cancer_genes.fasta'
+  667  git push
+  668  nano mysequences.txt
+  669  cd ..
+  670  ls
+  671  cd problemsets/
+  672  ls
+  673  nano mysequences.txt
+  674  ls
+  675  git add mysequences.txt
+  676  git commit -m 'addign mysequences.txt'
+  677  git push
+  678  mkdir fastas
+  679  ls
+  680  cd ..
+  681  ls 
+  682  cd files
+  683  ls
+  684  mv cancer_genes.fasta ~/PFB_problemsets/problemsets/fastas/
+  685  ls
+  686  cd ..
+  687  ls
+  688  cd problemsets/
+  689  ls
+  690  cd fastas/
+  691  ls
+  692  cd ..
+  693  ls
+  694  rm files
+  695  rm -r files/
+  696  ls
+  697  git add (
+  698  git add *
+  699  git commit -m 'deleted files folder and moved fasta files'
+  700  git push
+  701  ls
+  702  mkdir history
+  703  ls
+  704  cd history
+  705  history > unixBasics.history.problemset2.txt
